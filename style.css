@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka + One & display = swap');
+
+:root{
+    --primary-color: gray;
+    --secondary-color:rgb(35, 94, 161);
+    --tertiary-color: rgb(49, 44, 44);
+}
+
+body {
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+#container{
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: #f7f7f7f7;
+    box-shadow: 3px 3px 3px rgba(22, 22, 22, 0.822) ;
+    border-radius: 20px;
+    
+    
+}
+.titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #0174DF;
+    padding: 20px;
+    margin: 0 0 0 0px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    color:white;
+
+    
+}
+
+.tipsForm {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formInput{
+
+    background: white;
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+
+}
+
+.formInput:focus{
+    border: 3px solid aquamarine;
+    outline: none;
+}
+
+.formSelect{
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.formSubmit{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: #0174DF;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: rgb(253, 253, 253);
+}
+
+#totalTip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
